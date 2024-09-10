@@ -1,0 +1,421 @@
+
+*{
+
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+
+
+}
+
+
+
+/*estilização do header*/
+
+.informacao_topo{
+
+
+    max-width: 100%;
+    padding: 10px;
+    
+    
+}
+
+.informacao_topo img{
+
+   width: 50px;
+
+}
+
+.logan-pet{
+
+   color: #3c184e;
+   font-size: 40px;
+   margin-left:2px;
+}
+
+.logan-logan{
+
+   margin-left: 13px;
+   margin-top: 13px;
+   color: #3c184e;
+   font-size: 20px;
+
+}
+
+.conteudo_topo{
+
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  margin-top: 60px;
+  padding: 30px;
+  
+
+}
+
+.link-fale-conosco{
+
+
+   background-color:#3c184e;
+   width: 200px;
+   padding: 10px 20px;
+   font-size: 20px;
+   border-radius: 10px;
+   margin: 0 auto;
+   text-align: center;
+   margin-top: 10px;
+
+}
+
+.link-fale-conosco a{
+
+
+   color: #ffffff;
+   text-decoration: none;
+}
+
+h1{
+
+
+   text-align: center;
+}
+
+.container-titulo-topo{
+
+
+   max-width: 100%;
+   border-radius: 10px;
+   padding: 40px;
+   margin: 70px  70px;
+   background:#ffffffc4;
+   box-shadow: 0px 8px 32px aqua;
+
+
+
+}
+
+ .titulo-topo{
+
+   font-size: 60px;
+   color: #3c184e;
+   text-align: center;
+   font-weight: 800;
+   margin: 0 0 40px;
+
+
+ }
+
+ .container-titulo-topo img{
+
+   
+   width: 20px;
+
+}
+ 
+.banner-topo {
+   background-image: url("/img/banner-topo.jpg");
+   background-position: center;
+   background-size: cover;
+}
+ 
+
+/*nossos  serviços*/
+
+
+.box-servicos{
+
+
+   max-width: 800px;
+   color: #3c184e;
+   margin: 0 auto 50px;
+
+}
+
+.box-servicos li{
+    
+    max-width:100% ;
+    font-size: 20px;
+    margin: 0 0 20px;
+    padding-top: 12px;
+
+}
+
+.box-servicos-img{
+
+   max-width: 100%;
+   margin: 0 auto;
+   text-align: center;
+   padding-bottom: 30px;
+
+}
+
+.box-servicos-img img {
+   box-shadow: 3px 6px 10px 6px #0000005c;
+   border-radius: 10px;
+}
+
+
+
+h3{
+
+
+   text-align: center;
+   font-size: 30px;
+   color: #3c184e;
+   
+}
+
+/*Faixa*/
+
+
+
+
+.faixa{
+
+   background-color: #3c184e;
+   text-align: center;
+   padding: 80px;
+   
+ }
+
+
+
+.text-faixa{
+
+   
+   margin: 0 auto 50px;
+   color: #fff;
+   font-size: 40px;
+
+
+}
+
+.redes-sociais a{
+
+
+   margin: 0 20px;
+}
+
+.redes-sociais img{
+
+    width: 50px;
+    height: 50px;
+
+}
+
+/*onde estamos*/
+
+
+.onde-etamos{
+
+   max-width: 100%;
+   text-align: center;
+   
+}
+
+h4{
+   
+   padding-top: 40px;
+   font-size: 50px;
+   text-align: center;
+   color: #3c184e;
+
+}
+
+
+
+ .onde-estamos p{
+
+   color: #3c184e;
+   font-size: 20px;
+   
+   text-align: center;
+   padding-top: 50px;
+   
+}
+
+iframe{
+
+
+   margin-left: 120px;
+   padding-top: 30px;
+}
+
+/*fim css onde estamos*/
+
+/*inicio css rodapé */
+
+.text-rodape{
+
+
+   background-color: #3c184e;
+   padding: 30px;
+   margin-top: 50px;
+   text-align: center;
+   color: #fff;
+
+}
+
+.rodape{
+ 
+   
+   padding: 10px;
+
+
+}
+
+@media(min-width:400px),(max-width:725px){
+
+
+
+   .titulo-topo{
+
+      font-size: 20px;
+      color: #3c184e;
+      text-align: center;
+      font-weight: 800;
+      margin: 0 0 40px;
+   
+   
+    }
+
+    h3{
+
+
+      text-align: center;
+      
+      
+   }
+
+   .box-servicos li{
+      
+     max-width: 100%;
+     font-size: 20px;
+     margin-right: 100px ;
+     margin-left: 100px;
+     
+
+
+   }
+
+   .box-servicos-img{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      max-width: 100%;
+      margin-left: 70px;
+      padding-bottom: 30px;
+   
+   }
+
+   .faixa{
+
+       background-color: #fff;
+      
+      
+   }
+
+     .text-faixa {
+      
+      color: green;
+      font-size: 20px;
+      margin: auto 0;
+      
+   }
+      
+      
+      iframe{
+
+      width: 100%;
+      margin: 0;
+      padding-top: 30px;
+   }
+
+
+
+    }
+
+    @media(max-width:600px){
+
+
+        .text-faixa{
+
+            display: none;
+        }
+
+
+    }
+
+    @media(max-width:599px){
+
+
+
+      iframe{
+
+         width: 300px;
+         margin-left: 70px;
+         padding-top: 30px;
+      }
+
+
+      
+    .onde-estamos p{
+
+
+
+      color: aqua;
+   
+     }
+    
+    
+     .container-titulo-topo{
+
+
+      max-width: 100%;
+      border-radius: 10px;
+      padding: 10px;
+      margin: 70px  70px;
+      background:#ffffffc4;
+      box-shadow: 0px 8px 30px yellow;
+   
+   
+   
+   }
+
+     
+   
+
+
+       }
+
+   
+      
+
+
+
+
+    
+
+   
+
+    
+
+    
+   
+
+
+
+    
+
+
+
+   
+
+
+
+
+
+
+
+
