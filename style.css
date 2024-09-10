@@ -336,22 +336,28 @@ iframe{
 
     }
 
-    @media(max-width:600px){
-
-
-        .text-faixa{
-
-            display: none;
-        }
-
-
-    }
+    
 
     @media(max-width:599px){
 
+      .faixa{
+
+         background-color: #fff;
+        
+        
+     }
 
 
-      iframe{
+     .text-faixa {
+      
+      color: green;
+      font-size: 20px;
+      margin: auto 0;
+      
+   }
+      
+  
+     iframe{
 
          width: 300px;
          margin-left: 70px;
@@ -364,7 +370,7 @@ iframe{
 
 
 
-      color: aqua;
+      color:#3c184e;
    
      }
 
